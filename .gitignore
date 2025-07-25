@@ -1,0 +1,44 @@
+# Gitignore for learn-lang repository
+
+# Operating System files
+.DS_Store
+thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python specific
+__pycache__/
+*.pyc
+.Python
+venv/
+env/
+
+# C++ specific
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+
+# Node.js specific
+node_modules/
+npm-debug.log
+
+# Bash specific
+*.swp
+
+# Other common ignores
+*.zip
+*.tar.gz
+*.rar
